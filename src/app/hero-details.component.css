@@ -1,7 +1,6 @@
 /* The AOT compiler needs the `./` to show that this is local */
 @import './hero-details-box.css';
 
-
 :host {
   font-style: italic;
 }
@@ -16,12 +15,12 @@
 
 :host-context(.active) {
   font-style: italic;
+  color: violet;
 }
 
 :host ::ng-deep h3 {
   font-style: italic;
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
